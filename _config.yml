@@ -1,11 +1,11 @@
 # Site settings
 author: Christina Delavar
-title: 
+title: Living on Code Time
 header-img: img/home-bg.png
 email: c.delavar@gmail.com
 copyright_name: Christina Delavar
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A Code of !Codswallop
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  jinjo39
