@@ -7,7 +7,7 @@ permalink:  meetup_helper_cli_with_ruby
 
 ## Woot, Meetup Helper! Meetup.com == social life
 
-The meetup_helper command-line interface is a way to find the history of past meetups that a member of meetup.com has attended. I decided to write this program for my first project because meetup.com is the number 1 reason I have a social life, but the site does not make it easy to find past history data or download pictures from meetups. Currently, if you want to find the past events you’ve rsvp’d yes to, you would have to navigate to each separate group page, click on the past meetups link, and manually find all of the meetups you’ve attended. You’d also have to do a similar manual procedure, right clicking and saving one by one, if you wanted to download pictures from a meetup you attended. Meetup Helper allows you to download all of the pictures and get details from meetups you’ve attended in one fell swoop.
+The [meetup_helper](https://github.com/jinjo39/MeetupHelper) command-line interface is a way to find the history of past meetups that a member of meetup.com has attended. I decided to write this program for my first project because meetup.com is the number 1 reason I have a social life, and the site does not make it easy to find past history data or download pictures from meetups. Currently, if you want to find the past events you’ve rsvp’d yes to, you would have to navigate to each separate group page, click on the past meetups link, and manually find all of the meetups you’ve attended. You’d also have to do a similar manual procedure, right clicking and saving one by one, if you wanted to download pictures from a meetup you attended. Meetup Helper allows you to download all of the pictures and get details from meetups you’ve attended in one fell swoop.
 
 ## Ruby Mechanize is Your Friend
 
@@ -75,7 +75,6 @@ After the data for each meetup is parsed, the user is prompted with options to d
 
 ```bash
 class MeetupHelper::Options
-
   def self.list_options
     puts <<-DOC
       1. List meetup groups from attended events
